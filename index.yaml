@@ -1,0 +1,148 @@
+apiVersion: v1
+entries:
+  aks-advance-cluster:
+  - annotations:
+      cloudServiceProvider: azure
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T10:19:22.358264695Z"
+    description: A Helm chart for deploying AKS advance cluster
+    digest: 7217fbf378b132cc9540f97ec22fdc5f813222330ea2512a3c50b3a80b8aaa72
+    keywords:
+    - azure
+    - aks
+    - clusterdeployment
+    name: aks-advance-cluster
+    type: application
+    urls:
+    - packages/aks-advance-cluster-0.1.6.tgz
+    version: 0.1.6
+  aks-basic-cluster:
+  - annotations:
+      cloudServiceProvider: azure
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T10:19:22.358469287Z"
+    description: A Helm chart for deploying AKS basic cluster
+    digest: b4f556ebaac110baa1a9cdf083ad479dad8c13e02ff86eec5c7cb3c47908fedc
+    keywords:
+    - azure
+    - aks
+    name: aks-basic-cluster
+    type: application
+    urls:
+    - packages/aks-basic-cluster-0.1.7.tgz
+    version: 0.1.7
+  aks-intermediate-cluster:
+  - annotations:
+      clusterType: |
+        - "managedCluster"
+        - "managementCluster"
+      provider: digital
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T10:19:22.358656476Z"
+    description: A Helm chart for deploying AKS intermediate cluster
+    digest: 5ccbccebc558495fd3703468aa5745697bed21a4010216fb48b69c9a21844a50
+    keywords:
+    - azure
+    - intermediate
+    - cluster
+    - kubernetes
+    - aks
+    name: aks-intermediate-cluster
+    type: application
+    urls:
+    - packages/aks-intermediate-cluster-0.1.0.tgz
+    version: 0.1.0
+  digitalocean-cluster:
+  - annotations:
+      cloudServiceProvider: digitalocean
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T10:19:22.358845158Z"
+    description: A Helm chart for deploying Digitalocean cluster
+    digest: 1aac7776611fb3a17041c50818276b572feb3f335a58a621333d5c63ba90b59c
+    keywords:
+    - digitalocean
+    - clusterdeployment
+    name: digitalocean-cluster
+    type: application
+    urls:
+    - packages/digitalocean-cluster-0.1.4.tgz
+    version: 0.1.4
+  eks-cluster:
+  - annotations:
+      cloudServiceProvider: amazon
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T10:19:22.359091668Z"
+    description: A Helm chart for deploying EKS cluster
+    digest: 531618248a716474c660bc27f1c6184520f9bb2a0961454cc0e39aa9d645bf89
+    keywords:
+    - eks
+    - amazon
+    - clusterdeployment
+    name: eks-cluster
+    type: application
+    urls:
+    - packages/eks-cluster-0.1.5.tgz
+    version: 0.1.5
+  gke-cluster:
+  - annotations:
+      cloudServiceProvider: google
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T10:19:22.359744074Z"
+    description: A Helm chart for deploying Gke cluster
+    digest: 8bf0520de5a1a240544094eacda312845e24b046486543d3e2d5299720cc9ecf
+    keywords:
+    - google
+    - gke
+    - clusterdeployment
+    name: gke-cluster
+    type: application
+    urls:
+    - packages/gke-cluster-0.1.3.tgz
+    version: 0.1.3
+  linode-cluster:
+  - annotations:
+      cloudServiceProvider: linode
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T10:19:22.360211792Z"
+    description: A Helm chart for deploying Linode cluster
+    digest: 16a0fa600193d32c23f0f84db95ae54620b1cdb66fac3fcc41549c8b3343e7be
+    keywords:
+    - linode
+    - clusterdeployment
+    name: linode-cluster
+    type: application
+    urls:
+    - packages/linode-cluster-0.1.3.tgz
+    version: 0.1.3
+generated: "2025-01-31T10:19:22.357122655Z"
