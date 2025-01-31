@@ -9,7 +9,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T10:38:06.153008038Z"
+    created: "2025-01-31T11:16:04.667754455Z"
     description: A Helm chart for deploying AKS advance cluster
     digest: 11455b06fd368779db033962cb64e03001ac79b6c69693c333e0ff653aeb100a
     keywords:
@@ -30,7 +30,26 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T10:38:06.153453612Z"
+    created: "2025-01-31T11:16:04.668357787Z"
+    description: A Helm chart for deploying AKS basic cluster
+    digest: c2b64286dce7c0f2ee5ab3f6a56a30b744eb3cb9c664d85e4f491dd984b9c52b
+    keywords:
+    - azure
+    - aks
+    name: aks-basic-cluster
+    type: application
+    urls:
+    - packages/aks-basic-cluster-0.1.9.tgz
+    version: 0.1.9
+  - annotations:
+      cloudServiceProvider: azure
+      packageType: clusterdeployment
+      templateType: |
+        - "managedcluster"
+        - "managementcluster"
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-31T11:16:04.668157444Z"
     description: A Helm chart for deploying AKS basic cluster
     digest: a53439ab16d7201f1c110f1e3c240b19174cf57551ff3b5ac184b0a904024d8d
     keywords:
@@ -49,7 +68,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T10:38:06.153236826Z"
+    created: "2025-01-31T11:16:04.667958494Z"
     description: A Helm chart for deploying AKS basic cluster
     digest: 91b619de82ca44f8767b9a79dc0dace4b173be59cd74ed8ea067d7f34a109786
     keywords:
@@ -68,7 +87,7 @@ entries:
       provider: digital
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T10:38:06.153658396Z"
+    created: "2025-01-31T11:16:04.668540667Z"
     description: A Helm chart for deploying AKS intermediate cluster
     digest: d28130545a41108ad06b90bc43a8693217eada228db092686021faa3ccf187d8
     keywords:
@@ -91,7 +110,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T10:38:06.153851578Z"
+    created: "2025-01-31T11:16:04.668731812Z"
     description: A Helm chart for deploying Digitalocean cluster
     digest: 01adf103fe917a5c6492ee883e50e0c746ae8ff2f6694730c8ba81da4896a3c8
     keywords:
@@ -111,7 +130,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T10:38:06.154106976Z"
+    created: "2025-01-31T11:16:04.668988389Z"
     description: A Helm chart for deploying EKS cluster
     digest: b2db0217203c5d96918c48733686ddf1dc8574206de69e5e1534d4ee73bacef0
     keywords:
@@ -132,7 +151,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T10:38:06.154322229Z"
+    created: "2025-01-31T11:16:04.669211163Z"
     description: A Helm chart for deploying Gke cluster
     digest: 6c1d70d55753a82a36297e1720f250aab729755b4d8d0ba415a4da8a91621bf5
     keywords:
@@ -153,7 +172,7 @@ entries:
         - "managementcluster"
     apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-31T10:38:06.15451507Z"
+    created: "2025-01-31T11:16:04.669384105Z"
     description: A Helm chart for deploying Linode cluster
     digest: 5963439d02b14c47d98a571676da108d8ef8f4c8b2f051ef5951c1cd750b951a
     keywords:
@@ -164,4 +183,4 @@ entries:
     urls:
     - packages/linode-cluster-0.1.3.tgz
     version: 0.1.3
-generated: "2025-01-31T10:38:06.15190438Z"
+generated: "2025-01-31T11:16:04.666726353Z"
