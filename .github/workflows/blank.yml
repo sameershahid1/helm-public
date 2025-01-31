@@ -3,7 +3,7 @@ name: Helm Indexing
 on:
   push:
     branches:
-      - mains
+      - main
 
 jobs:
   helm-package-and-index:
